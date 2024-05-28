@@ -1,0 +1,155 @@
+.last-section{
+    margin: 3em 0 0 0;
+   
+
+    .boost{
+        background-color: $DarkViolet;
+       text-align: center;
+       padding-top: 1.5em;
+        height: 10em;
+        background-image: url('../images/bg-boost-desktop.svg');
+
+    h2{
+        font-size: 2em;
+        color: white;
+    }
+
+    button{
+        background-color: $Cyan;
+        padding: 0.8em 2.2em;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        margin-top: 1em;
+        cursor: pointer;
+    }
+    }
+
+    .footer{
+        background-color: $VeryDarkViolet;
+      
+        color: white; 
+        padding: 4em 7em;
+        display: flex;
+        gap: 2em;
+
+       .Name{
+        padding: 2em 0;
+        font-weight: 700;
+        font-family: $fontFamily;
+        flex-basis: 20%;
+       }
+
+       .tableDiv{
+        padding: 1em;
+        flex-basis: 80%;
+        display: flex;
+        gap:5em;
+
+        div{
+            
+           
+            padding: 0 2em;
+
+            p{
+                font-size: 0.7rem
+            }
+        }
+
+
+       }
+    }
+}
+
+
+@media(max-width:500px){
+
+
+    .last-section{
+        margin: 3em 0 0 0;
+       
+    
+        .boost{
+           text-align: center;
+           padding-top: 1.5em;
+            height: 10em;
+            background-image: url('../images/bg-boost-mobile.svg');
+    
+        h2{
+            font-size: 2em;
+            color: white;
+        }
+    
+        button{
+            background-color: $Cyan;
+            padding: 0.8em 2.2em;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            margin-top: 1em;
+        }
+        }
+    
+        .footer{
+            padding: 1em;
+            display: block;;
+            text-align: center;
+            
+    
+           .Name{
+            padding: 0.5em 0;
+           }
+    
+           .tableDiv{
+            padding: 0.5em 1em;
+            display: block;
+    
+            div{
+                padding: 0.5em;
+
+                p{
+                    font-size: 0.8rem
+                }
+            }
+    
+    
+           }
+        }
+    }
+
+}
+
+
+@media (min-width:501px) and (max-width:850px) {
+
+    .last-section{
+        margin: 3em 0 0 0;
+       
+        .footer{
+            padding: 2em 1em;
+            gap: 1em;
+    
+           .Name{
+            padding: 2em 0;
+           }
+    
+           .tableDiv{
+            padding: 1em;
+            flex-basis: 80%;
+            display: flex;
+            gap:1em;
+    
+            div{
+                padding: 0 1em;
+
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+    
+    
+           }
+        }
+    }
+ 
+}

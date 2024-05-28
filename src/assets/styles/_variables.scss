@@ -1,0 +1,18 @@
+$Cyan: hsl(180, 66%, 49%);
+$DarkViolet: hsl(257, 27%, 26%);
+$Red: hsl(0, 87%, 67%);
+$Gray: hsl(0, 0%, 75%);
+$GrayishViolet: hsl(257, 7%, 63%);
+$VeryDarkBlue: hsl(255, 11%, 22%);
+$VeryDarkViolet: hsl(260, 8%, 14%);
+
+$Fontsize: 18px;
+$Weights: 500, 700;
+
+$fontFamily:PoppinsBold;
+
+@font-face {
+    font-family: PoppinsBold;
+    font-weight: 500;
+    src: url('./fonts/Poppins-Bold.ttf');
+}

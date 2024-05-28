@@ -1,0 +1,131 @@
+.title{
+    padding: 1em 0 3.5em 6em;
+    background-color: white;
+}
+.brandName{
+    color: $DarkViolet;
+    font-family: $fontFamily;
+}
+
+.sectionOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em 0;
+
+    &__div1{
+       width: 37%;
+
+       h3{
+        font-family: $fontFamily;
+        color: $DarkViolet;
+        font-size:3rem;
+        font-weight: 700;
+        line-height: 1.2em;
+       }
+
+       p{
+        font-size: $Fontsize;
+        margin-top: -0.1em;
+       }
+       button{
+        background-color: $Cyan;
+        border-radius: 20px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        outline: transparent;
+        border: none;
+        padding:0.7em 2em;
+       }
+    }
+
+    &__div2{
+        width: 50%;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width:500px){
+
+    .title{
+        padding-left: 2em;
+    }
+    
+    .sectionOne{
+        display:flex;
+        flex-direction: column-reverse;
+        gap: 2em;
+        margin: 0.5em 0;
+    
+        &__div1{
+           width: 90%;
+          
+    
+           h3{
+            font-size:2.5rem;
+            line-height: 1.3em;
+            text-align: center;
+           }
+
+           p{
+            line-height: 1.8em;
+            margin-top: 0.5em;
+           }
+    
+           button{
+            background-color: $Cyan;
+            border-radius: 20px;
+            color: white;
+            padding:1em 2em;
+            margin: 0 30%;
+            
+           }
+        }
+    
+        &__div2{
+            width: 100%;
+            // margin-right: -10em;
+           
+    
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width:501px) and (max-width:890px) {
+    .title{
+        padding: 1em 0 3.5em 4em;
+    }
+    
+    .sectionOne{
+        gap: 1em;
+        margin: 3em 0;
+    
+        &__div1{
+           width: 50%;
+    
+           h3{
+            font-size:2rem;
+           }
+    
+           p{
+            margin-top: 0.2em;
+           }
+        }
+    
+        &__div2{
+            width: 50%;
+    
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+ 
