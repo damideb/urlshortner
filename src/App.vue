@@ -1,6 +1,6 @@
 <template>
   <div class="title">
-    <h1 class="brandName"> Shortly </h1>
+    <h1 class="brandName"> Linkly </h1>
     <SectionOne/>
   </div>
   <ShortenView />
@@ -13,7 +13,7 @@
     </div>
 
     <div class="footer">
-      <h1 class="Name">Shortly</h1>
+      <h1 class="Name">Linkly</h1>
 
       <div class='tableDiv'>
         <div>

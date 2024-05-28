@@ -1,5 +1,5 @@
 .title{
-    padding: 1em 0 3.5em 6em;
+    padding: 1.5em 0 3.5em 6em;
     background-color: white;
 }
 .brandName{
@@ -36,7 +36,8 @@
         cursor: pointer;
         outline: transparent;
         border: none;
-        padding:0.7em 2em;
+        padding:0.7em 1.5em;
+        font-size: $Fontsize;
        }
     }
 
@@ -60,28 +61,33 @@
         flex-direction: column-reverse;
         gap: 2em;
         margin: 0.5em 0;
+        margin-top: 2em;
     
         &__div1{
            width: 90%;
+           margin: 1em 0;
+          
           
     
            h3{
-            font-size:2.5rem;
-            line-height: 1.3em;
+            font-size:2rem;
+            line-height: 1.2em;
             text-align: center;
            }
 
            p{
-            line-height: 1.8em;
+            line-height: 1.5em;
             margin-top: 0.5em;
+            font-size: 1rem;
            }
     
            button{
             background-color: $Cyan;
             border-radius: 20px;
             color: white;
-            padding:1em 2em;
+            padding: 0.7em 1em ;
             margin: 0 30%;
+            font-size: 1rem;
             
            }
         }
